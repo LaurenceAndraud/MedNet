@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Ma page de prédictions</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+    </head>
+    <body>
+        <h1>MedNIST Predictor</h1>
+            <div class="intro">
+                <p>Interface réalisé dans le cadre du brief Mednet.</br>
+                    Insérer une image de radiographie médicale pour savoir de quelle partie du corps il s'agit. Laissez-vous guider par notre IA.
+                </p>
+            </div>
+            <div class = "predict">
+                <form id="predict" action="/" method="post" enctype="multipart/form-data">
+                    <input type="file" name="image" accept="image/*"></input>
+                    <input type="submit" value="Faire une prédiction"></input>
+                </form>
+            </div>
+    <footer>
+        <p>© 2023 Cosmo Dev - Ecole IA Microsoft by Simplon Promotion 2022 La Manufacture des Talents Michelin</p> 
+    </footer>
+
+    </body>
+</html>

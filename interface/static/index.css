@@ -1,0 +1,56 @@
+body {
+    background-color: #faebd7;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+color: #3d3d3d;
+text-align: center;
+background-color: #ff7f50;
+margin: 10px;
+margin-top: 20px;
+padding: 20px;
+}
+
+form {
+margin-top: 20px;
+}
+
+input[type="file"] {
+display: block;
+margin: 10px 0;
+}
+
+input[type="submit"] {
+background-color: #4caf50;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+p {
+margin-top: 20px;
+font-size: 20px;
+text-align: center;
+}
+
+.predict {
+    border: 3px double gray;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.intro p {
+    text-align: justify;
+    color: grey;
+    font-size: 16px;
+    padding: 15px;
+    margin: 15px;
+}
+
+footer p {
+    font-size: 12px;
+}
